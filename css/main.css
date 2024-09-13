@@ -1,0 +1,462 @@
+/* navbar */
+.navbar a {
+    color: white;}
+
+.collapse{
+    position: relative;
+}
+.home::after{
+     
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    left: 370px;
+    margin-bottom: 20px;
+    text-align: center;
+    content: "";
+    background-color: white;
+    width: 4.5%;
+    height: 2px;
+}
+/* header */
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6) , rgba(0, 0, 0, 0.6)) ,url(../imgs/bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.header h3{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content-header h1:after{
+content: "|";
+ animation-name: typing;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{
+        content: "|";
+    }
+    1%{
+        content: " |";
+    }
+    2%{
+        content: " D|";
+    }
+    3%{
+        content: " De|";
+    }
+    4%{
+        content: " Dev|";
+    }
+    5%{
+        content: " Deve|";
+    }
+    6%{
+        content: " Devel|";
+    }
+    7%{
+        content: " Develo|";
+    }
+    8%{
+        content: " Develop|";
+    }
+    9%{
+        content: " Develope|";
+    }
+    10%{
+        content: " Developer|";
+    }
+    11%{
+        content: " Develope|";
+    }
+    12%{
+        content: " Develop|";
+    }
+    13%{
+        content: " Develo|";
+    }
+    14%{
+        content: " Devel|";
+    }
+    15%{
+        content: " Deve|";
+    }
+    16%{
+        content: " Dev|";
+    }
+    17%{
+        content: " De|";
+    }
+    18%{
+        content: " D|";
+    }
+    19%{
+        content: " |";
+    }
+    20%{
+        content: " D|";
+    }
+    21%{
+        content: " De|";
+    }
+    22%{
+        content: " Des|";
+    }
+    23%{
+        content: " Desi|";
+    }
+    24%{
+        content: " Desig|";
+    }
+    25%{
+        content: " Design|";
+    }
+    26%{
+        content: " Designe|";
+    }
+    27%{
+        content: " Designer|";
+    }
+    28%{
+        content: " Designe|";
+    }
+    29%{
+        content: " Design|";
+    }
+    
+    30%{
+        content: " Desig|";
+    }
+    31%{
+        content: " Desi|";
+    }
+    32%{
+        content: " Des|";
+    }
+    33%{
+        content: " De|";
+    }
+    34%{
+        content: " D|";
+    }
+    35%{
+        content: " L|";
+    }
+    36%{
+        content: " La|";
+    }
+    37%{
+        content: " Lar|";
+    }
+    38%{
+        content: " Larr|";
+    }
+    39%{
+        content: " Larry|";
+    }
+    40%{
+        content: " Larry |";
+    }
+    41%{
+        content: " Larry D|";
+    }
+    42%{
+        content: " Larry Da|";
+    }
+    43%{
+        content: " Larry Dan|";
+    }
+    44%{
+        content: " Larry Dani|";
+    }
+    45%{
+        content: " Larry Danie|";
+    }
+    46%{
+        content: " Larry Daniel|";
+    }
+    47%{
+        content: " Larry Daniels|";
+    }
+    48%{
+        content: " Larry Daniel|";
+    }
+    49%{
+        content: " Larry Danie|";
+    }
+    50%{
+        content: " Larry Dani|";
+    }
+    
+    51%{
+        content: " Larry Dan|";
+    }
+    52%{
+        content: " Larry Da|";
+    }
+    53%{
+        content: " Larry D|";
+    }
+    54%{
+        content: " Larry |";
+    }
+    55%{
+        content: " Larry|";
+    }
+    56%{
+        content: " Larr|";
+    }
+    57%{
+        content: " Lar|";
+    }
+    58%{
+        content: " La|";
+    }
+    59%{
+        content: " L|";
+    }
+    100%{
+        content: " |";
+    }
+
+}
+.header-icon i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #0F2428;
+}
+/* <!-- about me --> */
+
+.about-me {
+       padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.dott img {
+    width: 100%; 
+    height: auto; 
+}
+
+.content h3 {
+    font-size: 2rem; 
+    margin-bottom: 0.5rem;
+}
+
+.content span {
+    display: block;
+    font-size: 1.25rem; 
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1rem; 
+    line-height: 1.6; 
+}
+
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+.progress-info {
+    font-size: 0.875rem;
+}
+
+.btn {
+    display: flex;
+    gap: 10px; 
+    flex-wrap: wrap; 
+    margin-top: 1rem;
+}
+
+.btn button {
+    flex: 1;
+}
+
+
+
+
+/* <!-- services --> */
+
+.tittle{
+    width: 200px; 
+    background-image: url(../imgs/dots.png);
+    background-position: center;
+    background-repeat: repeat;
+  
+
+}
+.tittle h3{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+}
+.item h6{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color:#343434 ;  
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    color:  #748182;
+}
+.item i{
+    background-color: #e9e8e8;
+    transition: 0.3s all;
+}
+.item i:hover{
+    background-color: #343434;
+    color: white;
+}
+
+/* <!-- portifolio --> */
+
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card-info{
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+    
+    }
+.card-h{
+    transition: all 1s;
+}
+.card-icon{
+    transition: all 1s;
+}
+.card:hover .card-info{
+       transform: translatey(-5px);
+       opacity:1 ;
+        
+}
+.card:hover .card-h{
+       transform: translate(0,20%);
+       opacity:1 ;
+        
+}
+.card:hover .card-icon{
+       transform: translate(0,-20%);
+       opacity:1 ;
+        
+}
+.nav-item [data-bs-toggle]{
+    
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Testimonials. */
+
+.carousel-item img{
+    width: 100px;
+    
+}
+.Testimonials .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5A5A5A;
+}
+
+
+/* our-team */
+.card-body{
+    background-color: #5A5A5A;
+    
+
+}
+.card-text{
+    color: white;
+}
+.card-img{
+    overflow: hidden;
+    position: relative;
+    transition-duration:all 5s;
+   
+}
+.cards-info i {
+    
+    color: white;
+    background-color:  #343434;
+    transition: 0.3s all;
+}
+.cards-info i:hover{
+    background-color: white;
+    color:  #343434;
+}
+.cards-info{
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.card-img:hover .cards-info{
+    transform: rotatey( 360deg ) ;
+    opacity:1 ;
+    
+}
+.card-img:hover img{
+    transform: scale(1.1,1.1);
+     
+}
+.tittle1{
+    width: 250px; 
+    background-image: url(../imgs/dots.png);
+    background-position: center;
+    background-repeat: repeat;
+  
+
+}
+.tittle1 h3{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+}
+/* contact-us */
+.size{
+    position: relative;
+    left: 25%;
+}
+
+
+/* footer  */
+.footer{
+    background: #1c1c1c;
+    padding: 20px;
+}
+
